@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rotate-demo</title>
+    <style>
+      .rotate-demo {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-image: url('https://p9-passport.byteacctimg.com/img/user-avatar/c01c52dcc59b98c1b026eb96f408329f~300x300.image');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100% 100%;
+      }
+      .rotate-demo:hover {
+        transform: rotate(666turn);
+        transition-delay: 1s;
+        transition-property: all;
+        transition-duration: 59s;
+        transition-timing-function: cubic-bezier(0.34, 0, 0.84, 1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="rotate-demo"></div>
+  </body>
+</html>
